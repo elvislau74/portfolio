@@ -1,0 +1,16 @@
+header {
+    padding: 20px;
+    background-color: blue;
+    color: #fff;
+}
+
+/* Set up aside bar to take up the left part of the screen with set border and size. */
+aside {
+    /* border: 1px black solid; */
+    width: 30%;
+    border-right: blue 3px solid;
+    min-height: 500px;
+    text-align: right;
+    font-size: 30px;
+    color: green;
+}
