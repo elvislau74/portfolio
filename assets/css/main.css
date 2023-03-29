@@ -1,7 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
-    padding: 20px;
-    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: green;
     color: #fff;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+header h1 {
+    display:inline-block;
+    font-size: 200%;
 }
 
 /* Set up aside bar to take up the left part of the screen with set border and size. */
