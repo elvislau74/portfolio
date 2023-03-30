@@ -86,10 +86,17 @@ section p{
     width: 74%;
     font-size: 25px;
 }
-article {
+.first-assignment {
     min-height: 300px;
     border: 1px solid black;
-    padding: 2% 4%;
+    padding: 1% 2%;
+    width: 74%;
+    float: right;
+}
+.placeholder {
+    min-height: 200px;
+    border: 1px solid black;
+    padding: 1% 2%;
     width: 74%;
     float: right;
     /* display: flex;
@@ -107,11 +114,21 @@ article {
     width: 100%;
 }
 
+.placeholder img{
+    width: 70%;
+}
+
 .placeholder h3, 
 .placeholder p{
     padding: 5px;
     background: purple;
     color: #fff;
-    width: 200px;
+    width: 100px;
 }
 
+main {
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+    float: right;
+}
