@@ -32,7 +32,7 @@ header h1 {
 }
 
 .banner {
-    height: 800px;
+    height: 400px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/abstractspacepicture.jpg");
@@ -40,34 +40,100 @@ header h1 {
     background-position: center;
 }
 
-/* Set up aside bar to take up the left part of the screen with set border and size. */
-.about-me, .works, .contact-me{
-    /* display: inline-block; */
-    width: 25%;
-    border-right: black 3px solid;
-    min-height: 200px;
-    text-align: right;
-    font-size: 30px;
-    color: black;
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
 }
 
-/* .contact-me h2 {
-    width: 25%;
-    border-right: black 3px solid;
-    float: left;
-    min-height: 200px;
-    text-align: right;
-    font-size: 30px;
-    color: black;
-} */
+.works {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
-.contact-me {
+section p{
+    display: inline-block;
+    width: 75%;
+    font-size: 25px;
+}
+.about-me {
+    display:flex;
+    flex-direction: row;
+}
+
+.about-me h2, .works h2, .contact-me h2{
+    width: 20%;
+    border-right: black 3px solid;
+    text-align: right;
+    font-size: 45px;
+    margin-right: 30px;
+    padding-right: 30px;
+}
+
+.contact-me ul li {
+    display: inline-block;
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first-assignment {
+    min-height: 100px;
+    border: 1px solid black;
+    padding: 1% 2%;
+    width: 70%;
+}
+.placeholder, .second-assignment {
+    min-height: 200px;
+    border: 1px solid black;
+    padding: 1% 2%;
+    width: 30%;
+}
+
+.first-assignment h3, .first-assignment p{
+    padding: 5px;
+    background: purple;
+    color: #fff;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.first-assignment img, .second-assignment img, .placeholder img{
+    width: 100%;
+}
+
+.placeholder h3, 
+.placeholder p,
+.second-assignment h3,
+.second-assignment p {
+    padding: 5px;
+    background: purple;
+    color: #fff;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* .contact-me {
     display:flex;
     justify-content: space-between;
 }
 
 .contact-me ul li{
-    /* display: inline-block; */
     margin-left: 25px;
     float: right;
 }
@@ -78,57 +144,13 @@ header h1 {
 
 .contact-me ul{
     list-style-type: none;
-}
+} */
 
-section p{
-    display: inline-block;
-    float: right;
-    width: 74%;
-    font-size: 25px;
-}
-.first-assignment {
-    min-height: 300px;
-    border: 1px solid black;
-    padding: 1% 2%;
-    width: 74%;
-    float: right;
-}
-.placeholder {
-    min-height: 200px;
-    border: 1px solid black;
-    padding: 1% 2%;
-    width: 74%;
-    float: right;
-    /* display: flex;
-    align-content: flex-start; */
-}
 
-.first-assignment h3, .first-assignment p{
-    padding: 5px;
-    background: purple;
-    color: #fff;
-    width: 200px;
-}
 
-.first-assignment img {
-    width: 100%;
-}
-
-.placeholder img{
-    width: 70%;
-}
-
-.placeholder h3, 
-.placeholder p{
-    padding: 5px;
-    background: purple;
-    color: #fff;
-    width: 100px;
-}
-
-main {
+/* main {
     display: flex;
     flex: wrap;
     flex-direction: row;
     float: right;
-}
+} */
