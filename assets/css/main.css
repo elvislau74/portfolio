@@ -10,12 +10,15 @@ a:visited {
   color: #fff;
 }
 
+body {
+    background-color: teal;
+}
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1%;
-    background-color: green;
+    background-color: rgb(51, 150, 51);
     color: #fff;
 }
 
@@ -29,19 +32,47 @@ header h1 {
     font-size: 200%;
 }
 
-
-/* .about-me, .works, .contact-me{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-} */
-
 /* Set up aside bar to take up the left part of the screen with set border and size. */
-.about-me h2, .works h2, .contact-me h2{
-    width: 30%;
+.about-me, .works, .contact-me{
+    width: 25%;
     border-right: black 3px solid;
     min-height: 200px;
     text-align: right;
     font-size: 30px;
-    color: green;
+    color: black;
 }
+
+section p{
+    float: right;
+    width: 74%;
+    font-size: 25px;
+}
+article {
+    min-height: 300px;
+    border: 1px solid black;
+    padding: 2% 4%;
+    width: 74%;
+    float: right;
+    display: flex;
+    align-content: flex-start;
+}
+
+.first-assignment h3, .first-assignment p{
+    padding: 5px;
+    background: purple;
+    color: #fff;
+    width: 200px;
+}
+
+.first-assignment img {
+    width: 100%;
+}
+
+.placeholder h3, 
+.placeholder p{
+    padding: 5px;
+    background: purple;
+    color: #fff;
+    width: 200px;
+}
+
