@@ -44,13 +44,31 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-content: space-between;
+    justify-content: center;
+    align-content: center;
+}
+
+.projects-whole {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-bottom-half {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
 }
 
 .works {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+
+.projects {
+    flex: 0 1 33%;
 }
 
 section p{
@@ -86,8 +104,9 @@ footer {
 .first-assignment {
     min-height: 100px;
     border: 1px solid black;
-    padding: 1% 2%;
+    /* padding: 1% 2%; */
     width: 70%;
+    flex: 0 1 75%;
 }
 .placeholder, .second-assignment {
     min-height: 200px;
@@ -121,36 +140,34 @@ footer {
     text-align: center;
 }
 
-
-
-
-
-
-
-
-/* .contact-me {
-    display:flex;
-    justify-content: space-between;
+@media screen and (max-width:767px){
+    .about-me h2, .works h2, .contact-me h2{
+        width: 20%;
+        border: none;
+        border-bottom: black 3px solid;
+        text-align: right;
+        font-size: 45px;
+        margin-right: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+    .about-me, .works, .contact-me{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contact-me ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0px;
+        font-size: 30px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
 }
-
-.contact-me ul li{
-    margin-left: 25px;
-    float: right;
-}
-
-.contact-me ul li:first-child{
-    color:#fff;
-}
-
-.contact-me ul{
-    list-style-type: none;
-} */
-
-
-
-/* main {
-    display: flex;
-    flex: wrap;
-    flex-direction: row;
-    float: right;
-} */
