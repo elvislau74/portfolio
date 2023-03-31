@@ -14,9 +14,11 @@ N/A
 This website has informational sections about me, my works, and my contact information. Clicking on the Navigational bar on top will scroll the page down to each of the above mentioned sections. In the about me section, you will find a small description about me. In the works section, you can click on any of the images or texts to link to any of my works and projects live on my Github pages. Clicking on any of the links in the contact me section will lead you my contact information and Github.
 
 Desktop Site
+
 <img src="./assets/images/desktop-site.png" width= 500px />
 
 Mobile Site
+
 <img src="./assets/images/mobile-site.png" width= 500px />
 
 <a href="https://github.com/elvislau74/portfolio">Click here for GitHub Repository</a>
