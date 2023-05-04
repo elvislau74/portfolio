@@ -176,6 +176,15 @@ styled color and positioning of the text over images  */
     left: 16px;
 }
 
+/* stylings for profile picture. referenced code for border radius from W3 schools*/
+.profile-pic {
+    width: 150px;
+    position: absolute;
+    top: 170px;
+    left: 20px;
+    border-radius: 50%;
+}
+
 /* use media query to make the page spacing mobile friendly */
 @media screen and (max-width:767px){
     .about-me h2, .works h2, .contact-me h2{
