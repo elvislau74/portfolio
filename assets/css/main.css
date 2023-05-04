@@ -241,4 +241,11 @@ styled color and positioning of the text over images  */
     .first-assignment img, .second-assignment img, .third-assignment img{
         height: 100%;
     }
+
+    .profile-pic {
+        width: 300px;
+        position: absolute;
+        top: 125px;
+        left: 100px;
+    }
 }
