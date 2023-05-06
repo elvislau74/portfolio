@@ -101,6 +101,8 @@ footer {
 
 footer ul {
     width: 70%
+    display: flex;
+    align-self: center;
 }
 
 /* set text over images, referenced code found on W3 schools. 
