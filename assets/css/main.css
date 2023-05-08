@@ -96,7 +96,7 @@ header h1 {
 }
 
 #contact-me ul {
-    width: 70%
+    width: 95%;
     display: flex;
     align-self: center;
 }
