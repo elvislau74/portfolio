@@ -177,10 +177,14 @@ styled color and positioning of the text over images  */
 /* stylings for profile picture. referenced code for border radius from W3 schools*/
 .profile-pic {
     width: 200px;
-    position: absolute;
-    top: 150px;
-    left: 20px;
+    height: 200px;
+    margin-left: 20px;
     border-radius: 50%;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
 }
 
 /* use media query to make the page spacing mobile friendly */
@@ -245,9 +249,8 @@ styled color and positioning of the text over images  */
     }
 
     .profile-pic {
-        width: 300px;
-        position: absolute;
-        top: 125px;
-        left: 55px;
+        width: 250px;
+        height: 250px;
+        margin: auto;
     }
 }
